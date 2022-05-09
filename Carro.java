@@ -8,8 +8,8 @@ public class Carro extends Veiculo{
         if(pneu > 4){
             System.out.println("\n Você só pode trocar quatro pneus");
         }
-        if(pneu > 0 & pneu < 4){
-            System.out.println("\n Pneu(s) trocados com sucesso");
+        if(pneu > 0 & pneu <= 4){
+            System.out.println("\n" + pneu + " Pneu(s) trocados com sucesso");
         }
     }
 

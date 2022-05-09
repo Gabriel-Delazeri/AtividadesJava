@@ -8,8 +8,8 @@ public class Moto extends Veiculo{
         if(pneu > 2){
             System.out.println("\n Você só pode trocar dois pneus");
         }
-        if(pneu > 0 & pneu < 2){
-            System.out.println("\n Pneu(s) trocados com sucesso");
+        if(pneu > 0 & pneu <= 2){
+            System.out.println("\n" + pneu + " Pneu(s) trocados com sucesso");
         }
     }
 
