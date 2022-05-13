@@ -12,4 +12,7 @@ public abstract class Veiculo {
     {
         System.out.println("\n" + this.modelo + "  " + this.ano);
     }
+
+    public abstract void trocarPneu(Integer pneu);
+    
 }

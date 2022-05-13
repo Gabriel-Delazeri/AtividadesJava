@@ -3,7 +3,8 @@ public class Carro extends Veiculo{
     public Carro(String modelo, String ano) {
         super(modelo, ano);
     }
-
+    
+    @Override 
     public void trocarPneu(Integer pneu){
         if(pneu > 4){
             System.out.println("\n Você só pode trocar quatro pneus");
